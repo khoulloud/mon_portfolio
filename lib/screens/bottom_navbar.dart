@@ -34,18 +34,6 @@ class _BottomNavBarState extends State<BottomNavBar> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Row(
-          children: [
-            Icon(Icons.folder, color: Theme.of(context).primaryColor), // Icône du thème à côté de l'en-tête
-            const SizedBox(width: 8), // Espacement
-            const Text('Portfolio'),
-
-            // En-tête "Portfolio"
-          ],
-        ),
-      ),
-
       body: Column(
         children: [
           SwitchListTile(
