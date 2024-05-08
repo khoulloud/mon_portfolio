@@ -19,13 +19,13 @@ class InformationsPersonnellesPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('About me'),
-        backgroundColor:  Colors.purpleAccent, // Utiliser la couleur de fond de la barre de navigation inférieure
+        backgroundColor: Colors.purpleAccent, // Utiliser la couleur de fond de la barre de navigation inférieure
+        centerTitle: true, // Centrer le titre de l'AppBar
       ),
       body: SingleChildScrollView(
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-
             Padding(
               padding: const EdgeInsets.all(16.0),
               child: Row(

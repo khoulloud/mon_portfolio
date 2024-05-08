@@ -27,6 +27,7 @@ dependencies:
   curved_navigation_bar:
   timeline_list:
   url_launcher:
+  font_awesome_flutter:
 
 
 

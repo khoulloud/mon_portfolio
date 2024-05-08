@@ -37,8 +37,9 @@ class EtudesPage extends StatelessWidget {
       color: Colors.pinkAccent, // Couleur de fond rose
       padding: const EdgeInsets.all(20), // Ajouter un padding autour du titre
       child: Row(
+        mainAxisAlignment: MainAxisAlignment.center, // Alignement au centre
         children: <Widget>[
-          Icon(icon),
+
           const SizedBox(width: 30),
           Text(
             text,

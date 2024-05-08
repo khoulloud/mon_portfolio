@@ -47,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
             // FlutterLogo(size: 100),
             const SizedBox(height: 20),
             const Text(
-              'Mon Portfolio',
+              'Gharbi Khouloud',
               style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
           ],
